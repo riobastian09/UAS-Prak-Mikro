@@ -27,28 +27,28 @@ Terdapat 2 jenis program dengan menggunakan bahasa assembly 8051.
 
 #### Menggunakan BCD
 6.1 Konfigurasi Port 7-Segment Display
-`No. of Digits : 4`
-| Control Line |    Port   |
-| Digit1 A     |    P0.0   |
-| Digit1 B     |    P0.1   |
-| Digit1 C     |    P0.2   |
-| Digit1 D     |    P0.3   |
-| Digit1 DP    |    GND    |
-| Digit2 A     |    P1.0   |
-| Digit2 B     |    P1.1   |
-| Digit2 C     |    P1.2   |
-| Digit2 D     |    P1.3   |
-| Digit2 DP    |    +5V    |
-| Digit3 A     |    P3.0   |
-| Digit3 B     |    P3.1   |
-| Digit3 C     |    P3.2   |
-| Digit3 D     |    P3.3   |
-| Digit3 DP    |    GND    |
-| Digit4 A     |    P4.0   |
-| Digit4 B     |    P4.1   |
-| Digit4 C     |    P4.2   |
-| Digit4 D     |    P4.3   |
-| Digit4 DP    |    GND    |
+> `No. of Digits : 4`
+> | Control Line |    Port   |
+> | Digit1 A     |    P0.0   |
+> | Digit1 B     |    P0.1   |
+> | Digit1 C     |    P0.2   |
+> | Digit1 D     |    P0.3   |
+> | Digit1 DP    |    GND    |
+> | Digit2 A     |    P1.0   |
+> | Digit2 B     |    P1.1   |
+> | Digit2 C     |    P1.2   |
+> | Digit2 D     |    P1.3   |
+> | Digit2 DP    |    +5V    |
+> | Digit3 A     |    P3.0   |
+> | Digit3 B     |    P3.1   |
+> | Digit3 C     |    P3.2   |
+> | Digit3 D     |    P3.3   |
+> | Digit3 DP    |    GND    |
+> | Digit4 A     |    P4.0   |
+> | Digit4 B     |    P4.1   |
+> | Digit4 C     |    P4.2   |
+> | Digit4 D     |    P4.3   |
+> | Digit4 DP    |    GND    |
 
 
 

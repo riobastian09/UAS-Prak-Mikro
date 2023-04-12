@@ -14,7 +14,7 @@ Terdapat 2 jenis program dengan menggunakan bahasa assembly 8051.
 
 3. Setup 7-Segment dan Keyboard Input
 
-4.Pergi ke menu `External Modules Setting` > `LED`.
+4. Pergi ke menu `External Modules Setting` > `LED`.
 > ![image](https://user-images.githubusercontent.com/39443794/231342937-1f1425f0-8fc8-4480-8f41-98a7b38b4d76.png)
 
 5.  Konfigurasi 7-Segment Display

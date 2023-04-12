@@ -123,7 +123,7 @@ Program memiliki 2 cara untuk melakukan display, dengan menggunakan BCD dan tanp
 > Tombol Momentary 2.7 Digunakan untuk menetapkan nilai menit
 > Tombol Momentary 3.7 Digunakan untuk melakukan reset
 
-#  Masing-masing program dengan menggunakana BCD dan tanpa BCD memiliki 2 alur proses yang berbeda, dimana:
+#  Masing-masing program dengan menggunakan BCD dan tanpa BCD memiliki 2 alur proses yang berbeda, dimana:
 ## Proses 1 (Started Run)
 
 1. Ketika Program Dijalankan, Counting akan segera mulai dari detik 00:00 tanpa perlu disetting

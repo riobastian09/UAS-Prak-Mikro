@@ -2,36 +2,36 @@
 
 Terdapat 2 jenis program dengan menggunakan bahasa assembly 8051.
 
-1. Menggunakan BCD atau Decoder untuk Konversi nilai Bit ke 7-Segment
+1. Menggunakan BCD atau Decoder untuk Konversi nilai Bit ke 7-Segment 
 2. Tanpa menggunakan BCD, sehingga nilainya langsung ditetapkan ke 7-Segment
 
 ## Cara Penggunaan
 
-1. Buka Topview Simulator
+1. Buka Topview Simulator 
 
-2. Sesuaikan Konfigurasi Device
+2. Sesuaikan Konfigurasi Device 
    > ![image](https://user-images.githubusercontent.com/39443794/231340692-3e77c78c-972e-4b51-9647-3b6ebe5e716f.png)
 
-3. Setup 7-Segment dan Keyboard Input
+3. Setup 7-Segment dan Keyboard Input 
 
-4. Pergi ke menu `External Modules Setting` > `LED`.
+4. Pergi ke menu `External Modules Setting` > `LED`. 
    > ![image](https://user-images.githubusercontent.com/39443794/231342937-1f1425f0-8fc8-4480-8f41-98a7b38b4d76.png)
 
-5.  Konfigurasi 7-Segment Display
+5.  Konfigurasi 7-Segment Display 
     > - Interface Selection : Non-Multiplexed
     > - Display Color : Red/Green (Sesuai Selera)
     > - Display Type : Common Cathode
     > - Data Input Selection : BCD (Untuk BCD) | 7 Segment (Untuk Non-BCD)
     >   ![image](https://user-images.githubusercontent.com/39443794/231343280-4a3e28dc-29a6-45aa-9168-041b1dbada6b.png)
 
-6.  Enable dan Konfigurasi Port 7-Segment Display
+6.  Enable dan Konfigurasi Port 7-Segment Display 
     > - Uncheck `No Seven Segment Display`
     > - Klik Selection of Port Lines and Number of Digits
     >   ![image](https://user-images.githubusercontent.com/39443794/231343582-8240928a-b131-4bed-81b6-5332f41f8dd7.png)
 
-6.1 Konfigurasi BCD Port 7-Segment Display
-   > `No. of Digits : 4`
-
+6.1 Konfigurasi BCD Port 7-Segment Display 
+   > `No. of Digits : 4` 
+ 
    | Control Line | Port Line |
    | Digit1 A     |    P0.0   |
    | Digit1 B     |    P0.1   |
@@ -58,8 +58,8 @@ Terdapat 2 jenis program dengan menggunakan bahasa assembly 8051.
    | Digit4 DP    |    GND    |
 
 6.2 Konfigurasi Port 7-Segment Display
-   > `No. of Digits : 4`
-
+   > `No. of Digits : 4` 
+ 
    | Control Line | Port Line |
    | Digit1 SEG A |    P0.0   |
    | Digit1 SEG B |    P0.1   |
@@ -97,33 +97,31 @@ Terdapat 2 jenis program dengan menggunakan bahasa assembly 8051.
    | Digit4 SEG G |    P3.6   |
    | Digit4 SEG DP|    GND    |
 
-7. Pergi ke menu `External Modules Setting` > `Keyboard`.
-
+7. Pergi ke menu `External Modules Setting` > `Keyboard`. 
    > ![image](https://user-images.githubusercontent.com/39443794/231348975-0703b318-9921-4a5a-b866-34d7bd8838b1.png)
 
-8. Konfigurasi `Keys - Momentary Type`
-
+8. Konfigurasi `Keys - Momentary Type`. 
    > - Port Line Checked = Port 1 & Port 2
    > - Activating Levels = Port 1 & Port 2
    >   Note : ini berlaku untuk BCD dan Non-BCD
    >   ![image](https://user-images.githubusercontent.com/39443794/231349258-623c272a-71e4-4fa1-b16f-a2fe1dc2d6de.png)
 
-9. Muat program `.hex` dengan mengklik `File` > `Load Program`
+9. Muat program `.hex` dengan mengklik `File` > `Load Program`.
 
-10. Jalankan Program dengan klik `Run` > `Go`
+10. Jalankan Program dengan klik `Run` > `Go`.
 
 #### Cara Kerja Program
    Program memiliki 2 cara untuk melakukan display, dengan menggunakan BCD dan tanpa BCD.
-   > Tombol Momentary 2.7 Digunakan untuk menetapkan nilai menit
+   > Tombol Momentary 2.7 Digunakan untuk menetapkan nilai menit 
    > Tombol Momentary 3.7 Digunakan untuk melakukan reset
 
 #  Masing-masing program dengan menggunakan BCD dan tanpa BCD memiliki 2 alur proses yang berbeda, dimana:
-   ## Proses 1 (Started Run)
+   ## Proses 1 (Started Run) 
    1. Ketika Program Dijalankan, Counting akan segera mulai dari detik 00:00 tanpa perlu disetting
    2. Ketika tombol setting diklik, digit menit akan berubah menjadi 00, dan digit detik akan berhenti. Ketika selesai setting dengan tidak menekan tombol setting selama beberapa detik, maka digit menit akan ditampilkan sesuai dengan berapa kali tombol menit ditekan, dan program akan melanjutkan counting.
    3. Jika tombol reset diklik, maka program akan memulai counting dari 00:00 dan langsung berjalan seperti semula.
 
-   ## Proses 2 (Started Delay)
+   ## Proses 2 (Started Delay) 
    1. Ketika Program Dijalankan, Counting tidak akan segera mulai dari detik 00:00, dan perlu disetting
    2. Ketika tombol setting diklik, digit menit akan berubah menjadi 00, dan digit detik akan berhenti. Ketika selesai setting dengan tidak menekan tombol setting selama beberapa detik, maka digit menit akan ditampilkan sesuai dengan berapa kali tombol menit ditekan, dan program akan melanjutkan counting.
    3. Jika tombol reset diklik, maka program akan memulai counting dari 00:00 dan proses counting akan berhenti.

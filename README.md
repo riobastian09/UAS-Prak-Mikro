@@ -56,11 +56,11 @@ Terdapat 2 jenis program dengan menggunakan bahasa assembly 8051.
   | Digit4 DP    |    GND    |   
    
    
-6.2 Konfigurasi Port 7-Segment Display
-    > `No. of Digits : 4` 
+6.2 Konfigurasi Port 7-Segment Display  
+    > `No. of Digits : 4` \
   
    | Control Line | Port Line |
-   |--------------|-----------|
+   |--------------|-----------|\
    | Digit1 SEG A |    P0.0   |
    | Digit1 SEG B |    P0.1   |
    | Digit1 SEG C |    P0.2   |

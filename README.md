@@ -119,21 +119,18 @@ Terdapat 2 jenis program dengan menggunakan bahasa assembly 8051.
 10. Jalankan Program dengan klik `Run` > `Go`
 
 #### Cara Kerja Program
-
 Program memiliki 2 cara untuk melakukan display, dengan menggunakan BCD dan tanpa BCD.
-
 > Tombol Momentary 2.7 Digunakan untuk menetapkan nilai menit
 > Tombol Momentary 3.7 Digunakan untuk melakukan reset
 
-Masing-masing program dengan menggunakana BCD dan tanpa BCD memiliki 2 alur proses yang berbeda, dimana:
-
-##### Proses 1 (Started Run)
+#Masing-masing program dengan menggunakana BCD dan tanpa BCD memiliki 2 alur proses yang berbeda, dimana:
+## Proses 1 (Started Run)
 
 1. Ketika Program Dijalankan, Counting akan segera mulai dari detik 00:00 tanpa perlu disetting
 2. Ketika tombol setting diklik, digit menit akan berubah menjadi 00, dan digit detik akan berhenti. Ketika selesai setting dengan tidak menekan tombol setting selama beberapa detik, maka digit menit akan ditampilkan sesuai dengan berapa kali tombol menit ditekan, dan program akan melanjutkan counting.
 3. Jika tombol reset diklik, maka program akan memulai counting dari 00:00 dan langsung berjalan seperti semula.
 
-##### Proses 2 (Started Delay)
+## Proses 2 (Started Delay)
 
 1. Ketika Program Dijalankan, Counting tidak akan segera mulai dari detik 00:00, dan perlu disetting
 2. Ketika tombol setting diklik, digit menit akan berubah menjadi 00, dan digit detik akan berhenti. Ketika selesai setting dengan tidak menekan tombol setting selama beberapa detik, maka digit menit akan ditampilkan sesuai dengan berapa kali tombol menit ditekan, dan program akan melanjutkan counting.

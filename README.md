@@ -112,8 +112,8 @@ Terdapat 2 jenis program dengan menggunakan bahasa assembly 8051.
 
 #### Cara Kerja Program
    Program memiliki 2 cara untuk melakukan display, dengan menggunakan BCD dan tanpa BCD.
-   > Tombol Momentary 2.7 Digunakan untuk menetapkan nilai menit 
-   > Tombol Momentary 3.7 Digunakan untuk melakukan reset
+   > Tombol Momentary 2.7 Digunakan untuk menetapkan nilai menit  
+   > Tombol Momentary 3.7 Digunakan untuk melakukan reset  
 
 #  Masing-masing program dengan menggunakan BCD dan tanpa BCD memiliki 2 alur proses yang berbeda, dimana:
    ## Proses 1 (Started Run) 

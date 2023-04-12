@@ -60,7 +60,6 @@ Terdapat 2 jenis program dengan menggunakan bahasa assembly 8051.
 ```
 
 6.2 Konfigurasi Port 7-Segment Display
-
 > `No. of Digits : 4`
 
 ```

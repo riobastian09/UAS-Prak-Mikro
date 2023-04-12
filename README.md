@@ -56,7 +56,7 @@ Terdapat 2 jenis program dengan menggunakan bahasa assembly 8051.
   | Digit4 B     |    P3.1   |  
   | Digit4 C     |    P3.2   |  
   | Digit4 D     |    P3.3   |  
-  | Digit4 DP    |    GND    |\
+  | Digit4 DP    |    GND    |
 
 
 6.2 Konfigurasi Port 7-Segment Display  
@@ -98,7 +98,7 @@ Terdapat 2 jenis program dengan menggunakan bahasa assembly 8051.
    | Digit4 SEG E |    P3.4   |
    | Digit4 SEG F |    P3.5   |
    | Digit4 SEG G |    P3.6   |
-   | Digit4 SEG DP|    GND    |\
+   | Digit4 SEG DP|    GND    |
 
 
 7. Pergi ke menu `External Modules Setting` > `Keyboard`.  
@@ -110,9 +110,9 @@ Terdapat 2 jenis program dengan menggunakan bahasa assembly 8051.
    >   Note : ini berlaku untuk BCD dan Non-BCD  
    >   ![image](https://user-images.githubusercontent.com/39443794/231349258-623c272a-71e4-4fa1-b16f-a2fe1dc2d6de.png)  
   
-9. Muat program `.hex` dengan mengklik `File` > `Load Program`.\ 
+9. Muat program `.hex` dengan mengklik `File` > `Load Program`. 
   
-10. Jalankan Program dengan klik `Run` > `Go`.\ 
+10. Jalankan Program dengan klik `Run` > `Go`. 
   
 ### Cara Kerja Program
    Program memiliki 2 cara untuk melakukan display, dengan menggunakan BCD dan tanpa BCD.

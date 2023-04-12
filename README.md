@@ -29,8 +29,6 @@ Terdapat 2 jenis program dengan menggunakan bahasa assembly 8051.
 6.1 Konfigurasi Port 7-Segment Display
 > `No. of Digits : 4`
 
-##### Port Setting:
-| Control Line |    Port   |
 | Digit1 A     |    P0.0   |
 | Digit1 B     |    P0.1   |
 | Digit1 C     |    P0.2   |

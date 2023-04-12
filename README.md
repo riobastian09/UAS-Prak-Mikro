@@ -8,10 +8,12 @@ Terdapat 2 jenis program dengan menggunakan bahasa assembly 8051.
 ## Cara Penggunaan
 
 1. Buka Topview Simulator
+
 2. Sesuaikan Konfigurasi Device
    > ![image](https://user-images.githubusercontent.com/39443794/231340692-3e77c78c-972e-4b51-9647-3b6ebe5e716f.png)
 
 3. Setup 7-Segment dan Keyboard Input
+
 4.Pergi ke menu `External Modules Setting` > `LED`.
 > ![image](https://user-images.githubusercontent.com/39443794/231342937-1f1425f0-8fc8-4480-8f41-98a7b38b4d76.png)
 
@@ -30,6 +32,7 @@ Terdapat 2 jenis program dengan menggunakan bahasa assembly 8051.
 6.1 Konfigurasi BCD Port 7-Segment Display
 > `No. of Digits : 4`
 
+```
 | Control Line | Port Line |
 | Digit1 A     |    P0.0   |
 | Digit1 B     |    P0.1   |
@@ -54,6 +57,7 @@ Terdapat 2 jenis program dengan menggunakan bahasa assembly 8051.
 | Digit4 C     |    P3.2   |
 | Digit4 D     |    P3.3   |
 | Digit4 DP    |    GND    |
+```
 
 6.2 Konfigurasi Port 7-Segment Display
 

@@ -16,10 +16,10 @@ Terdapat 2 jenis program dengan menggunakan bahasa assembly 8051.
 
 3.2.  Konfigurasi Seven Segment Display
 > Interface Selection   : Non-Multiplexed
-> Display Color         : Red/Green
-> Display Type          : Common Cathode
-> Data Input Selection  : BCD
-> ![image](https://user-images.githubusercontent.com/39443794/231342040-02c838e9-304c-4d72-bb23-91341df24a2b.png)
+Display Color         : Red/Green
+Display Type          : Common Cathode
+Data Input Selection  : BCD
+![image](https://user-images.githubusercontent.com/39443794/231342040-02c838e9-304c-4d72-bb23-91341df24a2b.png)
 
 ## Authors
 

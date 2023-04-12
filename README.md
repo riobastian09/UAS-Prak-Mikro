@@ -25,9 +25,10 @@ Terdapat 2 jenis program dengan menggunakan bahasa assembly 8051.
 > - Klik Selection of Port Lines and Number of Digits
 > ![image](https://user-images.githubusercontent.com/39443794/231343582-8240928a-b131-4bed-81b6-5332f41f8dd7.png)
 
-### Menggunakan BCD
+#### Menggunakan BCD
 6.1 Konfigurasi Port 7-Segment Display
 `No. of Digits : 4`
+
 |--------------------|-----------|
 |   Control Line     | Port Line |
 |--------|-----------|-----------|

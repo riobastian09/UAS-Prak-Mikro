@@ -32,34 +32,35 @@ Terdapat 2 jenis program dengan menggunakan bahasa assembly 8051.
 6.1 Konfigurasi BCD Port 7-Segment Display 
     > `No. of Digits : 4`
 
-    | Control Line | Port Line |  
-    |--------------|-----------|  
-    | Digit1 A     |    P0.0   |  
-    | Digit1 B     |    P0.1   |  
-    | Digit1 C     |    P0.2   |  
-    | Digit1 D     |    P0.3   |  
-    | Digit1 DP    |    GND    |  
-    | Digit2 A     |    P1.0   |  
-    | Digit2 B     |    P1.1   |  
-    | Digit2 C     |    P1.2   |  
-    | Digit2 D     |    P1.3   |  
-    | Digit2 DP    |    +5V    |  
-    | Digit3 A     |    P2.0   |  
-    | Digit3 B     |    P2.1   |  
-    | Digit3 C     |    P2.2   |  
-    | Digit3 D     |    P2.3   |  
-    | Digit3 DP    |    GND    |  
-    | Digit4 A     |    P3.0   |  
-    | Digit4 B     |    P3.1   |  
-    | Digit4 C     |    P3.2   |  
-    | Digit4 D     |    P3.3   |  
-    | Digit4 DP    |    GND    |  
+  | Control Line | Port Line |  
+  |--------------|-----------|  
+  | Digit1 A     |    P0.0   |  
+  | Digit1 B     |    P0.1   |  
+  | Digit1 C     |    P0.2   |  
+  | Digit1 D     |    P0.3   |  
+  | Digit1 DP    |    GND    |  
+  | Digit2 A     |    P1.0   |  
+  | Digit2 B     |    P1.1   |  
+  | Digit2 C     |    P1.2   |  
+  | Digit2 D     |    P1.3   |  
+  | Digit2 DP    |    +5V    |  
+  | Digit3 A     |    P2.0   |  
+  | Digit3 B     |    P2.1   |  
+  | Digit3 C     |    P2.2   |  
+  | Digit3 D     |    P2.3   |  
+  | Digit3 DP    |    GND    |  
+  | Digit4 A     |    P3.0   |  
+  | Digit4 B     |    P3.1   |  
+  | Digit4 C     |    P3.2   |  
+  | Digit4 D     |    P3.3   |  
+  | Digit4 DP    |    GND    |   
    
    
 6.2 Konfigurasi Port 7-Segment Display
    > `No. of Digits : 4` 
   
    | Control Line | Port Line |
+   |--------------|-----------|
    | Digit1 SEG A |    P0.0   |
    | Digit1 SEG B |    P0.1   |
    | Digit1 SEG C |    P0.2   |
@@ -68,7 +69,6 @@ Terdapat 2 jenis program dengan menggunakan bahasa assembly 8051.
    | Digit1 SEG F |    P0.5   |
    | Digit1 SEG G |    P0.6   |
    | Digit1 SEG DP|    GND    |
-  
    | Digit2 SEG A |    P1.0   |
    | Digit2 SEG B |    P1.1   |
    | Digit2 SEG C |    P1.2   |
@@ -77,7 +77,6 @@ Terdapat 2 jenis program dengan menggunakan bahasa assembly 8051.
    | Digit2 SEG F |    P1.5   |
    | Digit2 SEG G |    P1.6   |
    | Digit2 SEG DP|    +5V    |
-  
    | Digit3 SEG A |    P2.0   |
    | Digit3 SEG B |    P2.1   |
    | Digit3 SEG C |    P2.2   |
@@ -86,7 +85,6 @@ Terdapat 2 jenis program dengan menggunakan bahasa assembly 8051.
    | Digit3 SEG F |    P2.5   |
    | Digit3 SEG G |    P2.6   |
    | Digit3 SEG DP|    GND    |
-  
    | Digit4 SEG A |    P3.0   |
    | Digit4 SEG B |    P3.1   |
    | Digit4 SEG C |    P3.2   |
@@ -128,5 +126,4 @@ Terdapat 2 jenis program dengan menggunakan bahasa assembly 8051.
    4. Counting dapat dilanjutkan kembali jika setting menit sudah dilakukan.
 
 ## Authors
-
 - [@riobastian09](https://github.com/riobastian09/)

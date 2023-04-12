@@ -32,6 +32,7 @@ Terdapat 2 jenis program dengan menggunakan bahasa assembly 8051.
          No. of Digits : 4
 ```
 
+| Digits |  Display  |    Port   |
 |        |     A     |    P0.0   |
 |        |     B     |    P0.1   |
 | Digit1 |     C     |    P0.2   |

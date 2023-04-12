@@ -27,21 +27,22 @@ Terdapat 2 jenis program dengan menggunakan bahasa assembly 8051.
 
 ### Menggunakan BCD
 6.1 Konfigurasi Port 7-Segment Display
-> - No. of Digits : 4\n
-> |   Control Line     | Port Line |
-> |--------|-----------|-----------|
-> |        |     A     |    P0.0   |
-> |        |     B     |    P0.1   |
-> | Digit1 |     C     |    P0.2   |
-> |        |     D     |    P0.3   |
-> |        |     DP    |    GND    |
-> |--------|-----------|-----------|
-> |        |     A     |    P1.0   |
-> |        |     B     |    P1.1   |
-> | Digit2 |     C     |    P1.2   |
-> |        |     D     |    P1.3   |
-> |        |     DP    |    +5V    |
-> |--------|-----------|-----------|
+- No. of Digits : 4
+|--------------------|-----------|
+|   Control Line     | Port Line |
+|--------|-----------|-----------|
+|        |     A     |    P0.0   |
+|        |     B     |    P0.1   |
+| Digit1 |     C     |    P0.2   |
+|        |     D     |    P0.3   |
+|        |     DP    |    GND    |
+|--------|-----------|-----------|
+|        |     A     |    P1.0   |
+|        |     B     |    P1.1   |
+| Digit2 |     C     |    P1.2   |
+|        |     D     |    P1.3   |
+|        |     DP    |    +5V    |
+|--------|-----------|-----------|
 
 ## Authors
 

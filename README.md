@@ -1,5 +1,3 @@
-3333333333333333333333333333
-
 # UAS Praktikum Mikroprosesor
 
 Terdapat 2 jenis program dengan menggunakan bahasa assembly 8051.

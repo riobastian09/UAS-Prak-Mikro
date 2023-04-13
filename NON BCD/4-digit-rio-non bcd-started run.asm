@@ -73,7 +73,6 @@ DISPLAY:	; Menampilkan nilai pada 7-Segment
         LCALL	NOL
         MOV	    P0,R3
 
-		MOV		A,B
         LJMP	COUNTER
 
 MULAI:		; Inisiasi Nilai Register
